@@ -2,10 +2,10 @@ class Solution {
     public boolean isThree(int n) {
         int root = (int) Math.sqrt(n);
 
-        // Must be a perfect square
+        
         if (root * root != n) return false;
 
-        // Root must be prime
+        
         return isPrime(root);
     }
 
